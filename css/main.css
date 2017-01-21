@@ -1,0 +1,39 @@
+.git-list {
+    width: 100%;
+}
+
+.list-head {
+    display: flex;
+    width: 100%;
+    min-width: 400px;
+    flex-wrap: wrap;
+}
+
+.list-body {
+    display: flex;
+    width: 100%;
+    min-width: 400px;
+    flex-wrap: wrap;
+}
+
+.col {
+    box-sizing: border-box;
+    width: auto;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    word-break: break-all;
+}
+
+.col1 { width: 15%; }
+.col2 { width: 20%; }
+.col3 { width: 50%; }
+.col4 { width: 15%; border-right: 1px solid #ccc; }
+
+.col:nth-last-child(1),
+.col:nth-last-child(2),
+.col:nth-last-child(3),
+.col:nth-last-child(4){
+    border-bottom: 1px solid #ccc;
+}
