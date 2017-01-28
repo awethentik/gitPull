@@ -32,6 +32,7 @@
 
 	//init call and cycle
 	getList();
+	document.querySelector('h2').innerHTML = currentList.title;
 	//listener for #hot_repo
 	document.getElementById("hot_repo").addEventListener("click", () => updateList(HOT_REPO));
 	//listener for #prolific_users
