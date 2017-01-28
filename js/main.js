@@ -45,7 +45,7 @@
 				(firstRun) ? firstRun = false : clearList();
 				createList(REQUEST.responseText);
 				//setup auto refresh
-				startListCycle();
+				//startListCycle();
 			} else if (REQUEST.readyState == 4 && REQUEST.status != 200 && REQUEST.status != 0){
 				let body = document.getElementById('list_body');
 				body.innerHTML = 'something went wrong!';
